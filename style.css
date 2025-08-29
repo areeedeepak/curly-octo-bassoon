@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive;
+    background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    margin: 15px;
+    padding: 12px 20px;
+    background: white;
+    color: #ff69b4;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff69b4;
+    color: white;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+}
+
+.gallery img {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.music-control {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.letter {
+    width: 70%;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
